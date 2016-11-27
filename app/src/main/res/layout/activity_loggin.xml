@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dellpc.streamaudio.Loggin">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"></include>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="EMAIL ID"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:id="@+id/etmail"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.05" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="PASSWORD"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:id="@+id/etpassword"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.05" />
+    <Button
+        android:id="@+id/bloggin"
+        android:text="Loggin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06" />
+    <Button
+        android:id="@+id/bregister"
+        android:text="Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06" />
+
+</LinearLayout>
