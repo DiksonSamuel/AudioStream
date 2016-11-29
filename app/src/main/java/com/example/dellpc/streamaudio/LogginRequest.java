@@ -11,7 +11,7 @@ import java.util.Map;
  */
 public class LogginRequest extends StringRequest {
 
-    private static final String LOG_URL= "http://192.168.0.107/MusicApp/login.php";
+    private static final String LOG_URL= "http://192.168.1.2/MusicApp/login.php";
     private Map<String,String> params;
 
     public LogginRequest(String email,String password,Response.Listener<String> listener){

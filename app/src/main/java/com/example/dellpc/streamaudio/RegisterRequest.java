@@ -12,7 +12,7 @@ import java.util.Map;
  * Created by Dell Pc on 27-11-2016.
  */
 public class RegisterRequest extends StringRequest {
-    private static final String REGISTER_URL= "http://192.168.0.107/MusicApp/register.php";
+    private static final String REGISTER_URL= "http://192.168.1.2/MusicApp/register.php";
     private Map<String,String> params;
 
     public RegisterRequest(String username, int age,String email,String password,Response.Listener<String> listener){

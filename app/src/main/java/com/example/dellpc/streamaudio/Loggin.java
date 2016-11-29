@@ -60,11 +60,8 @@ public class Loggin extends AppCompatActivity {
 
                                 if (success) {
                                     String name = jsonobj.getString("username");
-                                    //int age = jsonobj.getInt("age");
                                     Intent lo = new Intent(Loggin.this, MainActivity.class);
-                                   // lo.putExtra("username",username);
                                     lo.putExtra("name", name);
-                                    //lo.putExtra("age", age);
 
                                     Loggin.this.startActivity(lo);
 
